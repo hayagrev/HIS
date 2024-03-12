@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [TestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="tests" name="Chrome(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.qa.HIS.BrowserCompatibility_HIS.CDRTest">
+        <methods>
+          <include name="testcaseForCDRPage_searchByIP_Number"/>
+          <include name="testcaseForCDRPage_ChkTheFunctionalityOfDiagnoseDROPDOWN"/>
+          <include name="testcaseForCDRPage_ViewResult"/>
+          <include name="doNavigateToCDRTest"/>
+          <include name="doNavigateToSelectHospitalLocationTest"/>
+          <include name="testcaseForCDRPage_ChkTheFunctionalityOfSpecilazitionDROPDOWN"/>
+          <include name="extentReportSetup"/>
+          <include name="doLoginTest"/>
+          <include name="doNavigateToHISHomeTest"/>
+          <include name="closedReport"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.qa.HIS.BrowserCompatibility_HIS.CDRTest -->
+    </classes>
+  </test> <!-- Chrome(failed) -->
+  <test thread-count="1" parallel="tests" name="firefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.qa.HIS.BrowserCompatibility_HIS.CDRTest">
+        <methods>
+          <include name="testcaseForCDRPage_searchByIP_Number"/>
+          <include name="testcaseForCDRPage_ChkTheFunctionalityOfDiagnoseDROPDOWN"/>
+          <include name="testcaseForCDRPage_ViewResult"/>
+          <include name="doNavigateToCDRTest"/>
+          <include name="doNavigateToSelectHospitalLocationTest"/>
+          <include name="testcaseForCDRPage_ChkTheFunctionalityOfSpecilazitionDROPDOWN"/>
+          <include name="extentReportSetup"/>
+          <include name="doLoginTest"/>
+          <include name="doNavigateToHISHomeTest"/>
+          <include name="closedReport"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.qa.HIS.BrowserCompatibility_HIS.CDRTest -->
+    </classes>
+  </test> <!-- firefox(failed) -->
+  <test thread-count="1" parallel="tests" name="Edge(failed)">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="com.qa.HIS.BrowserCompatibility_HIS.CDRTest">
+        <methods>
+          <include name="testcaseForCDRPage_searchByIP_Number"/>
+          <include name="testcaseForCDRPage_ChkTheFunctionalityOfDiagnoseDROPDOWN"/>
+          <include name="testcaseForCDRPage_ViewResult"/>
+          <include name="doNavigateToCDRTest"/>
+          <include name="doNavigateToSelectHospitalLocationTest"/>
+          <include name="testcaseForCDRPage_ChkTheFunctionalityOfSpecilazitionDROPDOWN"/>
+          <include name="extentReportSetup"/>
+          <include name="doLoginTest"/>
+          <include name="doNavigateToHISHomeTest"/>
+          <include name="closedReport"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.qa.HIS.BrowserCompatibility_HIS.CDRTest -->
+    </classes>
+  </test> <!-- Edge(failed) -->
+  <test thread-count="1" parallel="tests" name="Opera(failed)">
+    <parameter name="browser" value="Opera"/>
+    <classes>
+      <class name="com.qa.HIS.BrowserCompatibility_HIS.CDRTest">
+        <methods>
+          <include name="testcaseForCDRPage_ChkTheFunctionalityOfDiagnoseDROPDOWN"/>
+          <include name="extentReportSetup"/>
+          <include name="closedReport"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.qa.HIS.BrowserCompatibility_HIS.CDRTest -->
+    </classes>
+  </test> <!-- Opera(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->
